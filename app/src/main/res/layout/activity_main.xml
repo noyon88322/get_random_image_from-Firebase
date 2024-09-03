@@ -1,0 +1,26 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <ImageView
+       android:id="@+id/image"
+       android:layout_width="@dimen/_200sdp"
+       android:layout_height="@dimen/_200sdp"
+      android:src="@drawable/esport_512_logo"
+      />
+
+
+
+   <Button
+       android:id="@+id/goToFav"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Go To favourite"
+       />
+
+
+
+
+</LinearLayout>
